@@ -26,3 +26,8 @@
     transition: all 1.5s;
     filter: sepia(0.6) brightness(1);
 }
+.ex-8-img:hover{
+    transition: all 1.5s;
+    filter:grayscale(0.5) sepia(0.6);
+
+}
