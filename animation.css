@@ -12,9 +12,11 @@
     background-color: transparent;
 }
 .ex-5-square:hover{
+    transform: scale(2);
   
 }
 .ex-5-square:active{
+    transform: scale(0.5);
  
 }
 .ex-6-img:hover{
@@ -29,5 +31,14 @@
 .ex-8-img:hover{
     transition: all 1.5s;
     filter:grayscale(0.5) sepia(0.6);
+    border-radius: 20px;
+
+}
+.ex-9-img:hover{
+    transition: all 1.5s;
+    filter: grayscale(0.5) sepia(0.6);
+    border-radius: 20px;
+    width: auto;
+    height: 50%;
 
 }
