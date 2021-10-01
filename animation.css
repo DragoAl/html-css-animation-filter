@@ -19,4 +19,10 @@
 }
 .ex-6-img:hover{
     filter: grayscale(1);
+    
+
+}
+.ex-7-img:hover{
+    transition: all 1.5s;
+    filter: sepia(0.6) brightness(1);
 }
