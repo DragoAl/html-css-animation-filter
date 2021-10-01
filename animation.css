@@ -11,3 +11,12 @@
 .ex-4-square:hover {
     background-color: transparent;
 }
+.ex-5-square:hover{
+  
+}
+.ex-5-square:active{
+ 
+}
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
