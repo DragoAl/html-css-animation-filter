@@ -1,16 +1,21 @@
+/* esercizio 1 */
 .ex-1-square:hover{
     background-color: red;
 }
+/* esercizio 2 */
 .ex-2-square:active{
     width: 100%;
 
 }
+/* esercizio 3 */
 .ex-3-square:hover{
     border-radius: 50%;
 }
+/* esercizio 4 */
 .ex-4-square:hover {
     background-color: transparent;
 }
+/* esercizio 5 */
 .ex-5-square:hover{
     transform: scale(2);
   
@@ -19,25 +24,30 @@
     transform: scale(0.5);
  
 }
+/* esercizio 6 */
 .ex-6-img:hover{
     filter: grayscale(1);
     
 
 }
+/* esecizio 7 */
 .ex-7-img:hover{
    
     filter: sepia(0.6) brightness(1);
 }
+/* esercizio 8 */
 .ex-8-img:hover{
     filter:grayscale(0.5) sepia(0.6);
     border-radius: 20px;
 
 }
+/* esercizio 9 */
 .ex-9-img:hover{
     filter: grayscale(0.5) sepia(0.6);
     border-radius: 20px;
     transform: scale(1.5);
 }
+/* esercizio 10 */
 @keyframes spin-left{
     0%{
         transform: rotate(-0deg);
@@ -47,6 +57,7 @@
     }
 
 }
+/* esercizio 11 */
 .ex-11-icon:hover{
     
     animation: spin-right 2s linear;
