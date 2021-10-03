@@ -64,7 +64,141 @@
     100%{
         transform: rotate(0deg);
     }
+}
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+  
+    animation: topwhite-line 1s linear  ;
 
 
 }
+.ex-12-button:hover .ex-12-bottom-white{
+  
+    animation: bottomwhite-line 1s linear  ;
+
+
+}
+
+
+
+@keyframes topwhite-line{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    50%{
+
+
+        top:-10px;
+        left:68%;
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+
+    }
+}
+@keyframes bottomwhite-line{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+    50%{
+
+
+        bottom:-10px;
+        right:68%;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+
+    }
+}
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white{
+
+animation: line-topwhite 2s linear  ;
+
+
+}
+.ex-13-button:hover .ex-13-bottom-white{
+  
+    animation: line-bottomwhite 2s linear  ;
+
+
+}
+@keyframes line-topwhite{
+    0% {
+        top: -10px;
+        left: 10%;
+        
+    }
+    30% {
+        top: -10px;
+        left: 75%;
+        
+    }
+    45% {
+        top: 100%;
+        left: 75%;
+        
+    }
+    75% {
+        top: 100%;
+        left: 0;
+        
+    }
+    90% {
+        top: -10px;
+        left: -15%;
+        
+    }
+    
+    100% {
+        top: -10px;
+        left: 10%;
+        
+    }
+}
+@keyframes line-bottomwhite{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+        
+    30% {
+        bottom: -10px;
+        right: 75%;
+        
+    }
+    45% {
+        bottom: 100%;
+        right: 75%;
+        
+    }
+    75% {
+        bottom: 100%;
+        right: 0%;
+        
+    }
+    90% {
+        bottom: -10px;
+        right: -20%;
+        
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+
+    }
+    
    
+
+   
+}
+        
+ 
+
+ 
